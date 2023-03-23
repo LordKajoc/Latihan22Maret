@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".OutputParcelable">
+
+
+    <TextView
+        style="@style/textjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_mydatapar"
+        android:textAllCaps="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/abu">
+
+            <TextView
+                android:id="@+id/tv_namepar"
+                style="@style/textbody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_name" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/abu">
+
+        <TextView
+            android:id="@+id/tv_emailpar"
+            style="@style/textbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_email" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/abu">
+
+        <TextView
+            android:id="@+id/tv_phonepar"
+            style="@style/textbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_phone" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/abu">
+
+        <TextView
+            android:id="@+id/tv_addresspar"
+            style="@style/textbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_address" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="@color/abu">
+
+        <TextView
+            android:id="@+id/tv_agepar"
+            style="@style/textbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text_age" />
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

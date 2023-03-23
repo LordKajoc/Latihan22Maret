@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_judulmain"
+        style="@style/textjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_latihan"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/button_bundle"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_bundle" />
+
+    <Button
+        android:id="@+id/button_serializable"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_serializable" />
+
+    <Button
+        android:id="@+id/button_parcelable"
+        style="@style/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_parcelable" />
+
+
+</LinearLayout>

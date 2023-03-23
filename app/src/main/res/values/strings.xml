@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Latihan 22 Maret</string>
+    <string name="text_latihan">Latihan</string>
+    <string name="text_bundle">Bundle</string>
+    <string name="text_serializable">Serializable</string>
+    <string name="text_parcelable">Parcelable</string>
+    <string name="text_save">Save</string>
+    <string name="text_name">Name</string>
+    <string name="text_tahunlahir">Year of birth</string>
+    <string name="text_email">Email</string>
+    <string name="text_phone">Phone</string>
+    <string name="text_address">Adress</string>
+    <string name="text_age">Age</string>
+    <string name="text_mydataser">My Data Serializable</string>
+    <string name="text_mydatapar">My Data Parcelable</string>
+    <string name="text_back">Back</string>
+</resources>
